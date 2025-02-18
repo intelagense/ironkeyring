@@ -5,8 +5,8 @@ function Login() {
     try {
       await account.createOAuth2Session(
         "discord",
-        "http://localhost:5173/", // success URL
-        "http://localhost:5173/", // failure URL
+        "https://ironkeyring.netlify.app/", // success URL
+        "https://ironkeyring.netlify.app/", // failure URL
         ["identify", "email", "guilds", "guilds.members.read"]
       ); 
     } catch (error) {
