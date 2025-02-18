@@ -1,9 +1,8 @@
-# IronKeyring
+# React + Vite
 
-**Discord auth for game servers.**
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
-- **Discord Authentication** for secure server access.
+Currently, two official plugins are available:
 
-## Usage
-Players must link their Discord account before joining the game server.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
